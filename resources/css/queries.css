@@ -23,6 +23,13 @@
         font-size: 200%;
     }
     
+    .projects-col img {
+        
+        display: inline-block;
+        height: 150px;
+        width: 49.6%;               /* Workaround, to fix later */
+    }
+    
 
 /* Small phones: 0 to 479px */
 @media only screen and (max-width: 479px) {
