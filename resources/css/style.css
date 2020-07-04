@@ -61,6 +61,7 @@ h2 {
     text-align: center;
     margin-bottom: 30px;    
     letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 h3 {
@@ -79,6 +80,9 @@ li a {
 
 /* ------- PARAGRAPHS --------------- */
 
+.desc {
+    text-align: center;
+}
 
 /* ------- ICONS --------------- */
 
@@ -127,6 +131,10 @@ li a {
 .btn-ghost:hover,
 .btn-ghost:active {
     color: #fff;
+}
+
+.download-button {
+    text-align: center;
 }
 
 /* ------------------------------------ */
@@ -226,6 +234,13 @@ header {
     height: 25vh;
 }
 
+/* ------------------------------------ */
+/* SOCIAL MEDIA + CONTACT               */
+/* ------------------------------------ */
+
+.social-media {
+    background-color: rgba(204, 170, 27, 0.46);
+}
 
 /* ------------------------------------ */
 /* FOOTER                               */
