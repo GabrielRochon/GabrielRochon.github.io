@@ -24,14 +24,18 @@
     }
     
     .projects-col img {
-        
         display: inline-block;
         height: 150px;
-        width: 49.6%;               /* Workaround, to fix later */
+        width: 49%;               /* Workaround, to fix later */
     }
+    
+    .desc { width: 75%;}
     
 
 /* Small phones: 0 to 479px */
 @media only screen and (max-width: 479px) {
-    
+    .projects-col img {
+        height
+        width: 100%;
+    }
 }

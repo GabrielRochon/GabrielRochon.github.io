@@ -36,7 +36,7 @@ html {
 }
 
 section {
-    padding: 80px 20px 0 20px;
+    padding: 40px 20px 40px 20px;
 }
  
 /* ------- HEADINGS  --------------- */
@@ -84,6 +84,10 @@ a {
 .desc {
     text-align: center;
     padding-bottom: 20px;
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 /* ------- ICONS --------------- */
@@ -222,14 +226,16 @@ header {
     margin: 0;
     padding: 5px;
     background-color: #fff;
+    margin: 0 5px 10px 5px;
 }
 
 .projects-col img {
     width: 100%;
-    margin-top: 18px;
+    margin-top: 5px;
     display: block;
     object-fit: cover;
     height: 25vh;
+    padding: 5px;
 }
 
 /* ------------------------------------ */
