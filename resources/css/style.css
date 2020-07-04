@@ -74,14 +74,16 @@ ul {
     list-style: none;
 }
 
-li a {
+a {
     text-decoration: none;
+    color: #555;
 }
 
 /* ------- PARAGRAPHS --------------- */
 
 .desc {
     text-align: center;
+    padding-bottom: 20px;
 }
 
 /* ------- ICONS --------------- */
@@ -209,10 +211,6 @@ header {
 /* MY PROJECTS                          */
 /* ------------------------------------ */
 
-.section-projects .desc {
-    margin-bottom: 30px;
-}
-
 .projects-col {
     padding: 10px;
 }
@@ -238,8 +236,18 @@ header {
 /* SOCIAL MEDIA + CONTACT               */
 /* ------------------------------------ */
 
+.social-media-row {
+    width: 100%;
+    padding: 0 20px;
+}
+
 .social-media {
     background-color: rgba(204, 170, 27, 0.46);
+    text-align: center;
+}
+
+.social-media ion-icon {
+    font-size: 270%;
 }
 
 /* ------------------------------------ */
@@ -250,7 +258,8 @@ footer {
     background-color: #393333;
     color: #999;
     font-size: 80%;
-    padding: 20px
+    padding: 20px;
+    margin-top: 20px;
 }
 
 .footer-nav li {
