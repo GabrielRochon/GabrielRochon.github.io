@@ -233,6 +233,12 @@ header {
 }
 
 /* ------------------------------------ */
+/* RESUME                               */
+/* ------------------------------------ */
+
+
+
+/* ------------------------------------ */
 /* SOCIAL MEDIA + CONTACT               */
 /* ------------------------------------ */
 
@@ -244,9 +250,12 @@ header {
 .social-media {
     background-color: rgba(204, 170, 27, 0.46);
     text-align: center;
+    border: 10px solid #eee;        /* Workaround*/
+    padding: 10px 0;
 }
 
 .social-media ion-icon {
+    margin-bottom: 10px;
     font-size: 270%;
 }
 
