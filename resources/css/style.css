@@ -198,7 +198,7 @@ header {
 }
 
 .hero-button {
-    background-color: yellow;
+    background-color: #e3be26;
     margin-right: 20%;
     margin-bottom: 15px;
     font-size: 120%;
@@ -236,6 +236,15 @@ header {
 /* RESUME                               */
 /* ------------------------------------ */
 
+.download-button {
+    display: inline-block;
+    background-color: rgba(204, 170, 27, 0.46);
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 
 /* ------------------------------------ */
