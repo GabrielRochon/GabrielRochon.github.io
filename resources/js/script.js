@@ -27,4 +27,10 @@ $(document).ready(function() {
         $(this).children('img').removeClass('blur-effect');
     });
     
+    
+    /* Project pic click will make it zoom in */
+    $('.project-container img').click(function() {
+        $(this).popImg();
+    });
+    
 });
