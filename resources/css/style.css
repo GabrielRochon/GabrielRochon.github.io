@@ -101,46 +101,18 @@ a {
 
 /* ------- BUTTONS --------------- */
 
-.btn:link,
-.btn:visited {
-    display: inline-block;
-    padding: 10px 30px;
-    font-weight: 300;
-    text-decoration: none;
-    border-radius: 200px;
-    color: #fff;
-    border: 1px solid #ef7e22;
-    transition: background-color 0.2s, border 0.2s, color 0.2s;
-}
-
-.btn-full:link,
-.btn-full:visited {
-    background-color: #e67e22;
-    margin-right: 15px;
-}
-
-.btn-ghost:link,
-.btn-ghost:visited {
-    color: #e67e22;
-}
-
-.btn:hover,
-.btn:active {
-    background-color: #b05d14;
-}
-
-.btn-full:hover,
-.btn-full:active {
-    background-color: #b05d14;
-}
-
-.btn-ghost:hover,
-.btn-ghost:active {
-    color: #fff;
-}
-
 .download-button {
+    transition: background-color 0.2s;
+}
+
+.download-button:link,
+.download-button:visited {
     text-align: center;
+}
+
+.download-button:hover,
+.download-button:active {
+    background-color: #e7c744;
 }
 
 /* ------------------------------------ */
@@ -229,13 +201,34 @@ header {
     margin: 0 5px 10px 5px;
 }
 
-.projects-col img {
+.project-container {
+    position: relative;
+    width: 100%;
+}
+
+.project-container img {
+    position: relative;
     width: 100%;
     margin-top: 5px;
     display: block;
     object-fit: cover;
     height: 25vh;
     padding: 5px;
+    transition: 0.2s;
+}
+
+.project-container img:hover {
+    filter: blur(1px) grayscale(100%);
+}
+
+.project-container p {
+    color: #fff;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    
+    background-color: rgba(0, 0, 0, 0.49);
+    padding: 0 5px;
 }
 
 /* ------------------------------------ */
