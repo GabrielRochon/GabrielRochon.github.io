@@ -6,9 +6,10 @@
         
         <link rel="stylesheet" type="text/css" href="external/normalize.css">
         <link rel="stylesheet" type="text/css" href="external/grid.css">
+        <link rel="stylesheet" type="text/css" href="external/animate.css">
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
-        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
         <title>Gabriel Rochon</title>
     </head>
 
@@ -42,16 +43,16 @@
                     <h1>Hi! I'm Gabriel.</h1>
                     <ul class="hero-buttons-list">
                         <li class="hero-button">
-                            <a href="#">Projects</a>
+                            <a href="#" class="js--scroll-to-projects">Projects</a>
                         </li>
                         <li class="hero-button">
-                            <a href="#">Skills</a>
+                            <a href="#" class="js--scroll-to-skills">Skills</a>
                         </li>
                         <li class="hero-button">
-                            <a href="#">Resume</a>
+                            <a href="#" class="js--scroll-to-resume">Resume</a>
                         </li>
                         <li class="hero-button">
-                            <a href="#">Links &amp; Contact</a>
+                            <a href="#" class="js--scroll-to-contact">Links &amp; Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -61,7 +62,7 @@
         <section class="section-projects js--section-projects">
             <div class="row">
                 <h2>My projects</h2>
-                <p class="desc">University life is more than just studying! Here are a few of the projects I work on on the side:</p>
+                <p class="desc">University life is more than just studying! Here are a few of the projects I work on on the side (click on a picture for more details):</p>
             </div>
             <div class="row">
                 <div class="col span-1-of-3 projects-col">
@@ -76,11 +77,11 @@
                     </div>
                     <div class="project-container">
                         <img src="resources/img/projects/voxpop.jpg" alt="Vox Pop">
-                        <p>Interviewer/Content creator</p>
+                        <p>Interviewer / Content Creator</p>
                     </div>
                     <div class="project-container">
                     <img src="resources/img/projects/polyhx-sponsor.jpg" alt="VP Sponsorship for PolyHx">
-                        <p>VP Sponsorship for Hackathons</p>
+                        <p>Hackathon VP Sponsorship</p>
                     </div>
                 </div>
                 <div class="col span-1-of-3 projects-col">
@@ -125,7 +126,7 @@
         </section>
         
         <!-- To be filled later -->
-        <section class="section-skills">
+        <section class="section-skills js--section-skills">
             <div class="row">
                 <h2>My skills</h2>
                 <p class="desc">I have worked on a few projects since I started programming. Here's a summary of what I'm good at and familiar with:</p>
@@ -135,7 +136,7 @@
             </div>
         </section>
         
-        <section class="section-resume">
+        <section class="section-resume js--section-resume">
             <div class="row">
                 <h2>Resume</h2>
                 <p class="desc">Are you looking for someone creative, dynamic and eager to learn for a PM or SWE Intern position?</p>
@@ -145,7 +146,7 @@
             </div>
         </section>
         
-        <section class="section-contact">
+        <section class="section-contact js--section-contact">
             <div class="row">
                 <h2>Contact me</h2>
                 <p class="desc">I would love to know more about you and how I can help your business meet its goals. You can reach me via email or take a look at my other social networks:</p>
@@ -192,9 +193,11 @@
             </div>
         </footer>
         
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="resources/js/script.js"></script>
         <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
         <script src="external/jquery.waypoints.min.js"></script>
+        
     </body>
 
 </html>

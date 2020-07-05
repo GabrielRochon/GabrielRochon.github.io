@@ -190,6 +190,11 @@ header {
 .project-container {
     position: relative;
     width: 100%;
+    transition: font-size 0.2s;
+}
+
+.project-container:hover {
+    font-size: 115%;
 }
 
 .project-container img {
@@ -203,9 +208,10 @@ header {
     transition: 0.2s;
 }
 
-.project-container img:hover {
+/*.project-container img:hover,
+.project-container img:active {
     filter: blur(1px) grayscale(100%);
-}
+}*/
 
 .project-container p {
     color: #fff;
@@ -215,6 +221,7 @@ header {
     background-color: rgba(0, 0, 0, 0.49);
     padding: 2px 5px;
     margin-right: 15px;
+    font-size: 90%;
 }
 
 /* ------------------------------------ */
