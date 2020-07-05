@@ -23,8 +23,12 @@
         font-size: 200%;
     }
     
-    .projects-col img {
+    .project-container {
         display: inline-block;
+        width: 49%;
+    }
+    
+    .project-container img {
         height: 150px;
     }
     
@@ -33,7 +37,7 @@
 
 /* Small phones: 0 to 479px */
 @media only screen and (max-width: 479px) {
-    .projects-col img {
+    .projects-container img {
         height
         width: 100%;
     }
