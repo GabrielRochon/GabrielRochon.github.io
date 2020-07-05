@@ -10,9 +10,17 @@
 
 /* Medium phones: 480 to 767px */
 @media only screen and (max-width: 767px) {
+    
+    header {
+        background-position: calc(50% + 50px) 50%;
+    }
+    
     body { font-size: 17px; }
+    
     h1 { font-size: 150%; }
+    
     .col { width: 100% }    /* Cols will stack */
+    
     .hero-buttons-bar { 
         width: 50%;
         float: right;
@@ -25,7 +33,7 @@
     
     .project-container {
         display: inline-block;
-        width: 49%;
+        width: 49%;             /* Temporary workaround, fix later */
     }
     
     .project-container img {

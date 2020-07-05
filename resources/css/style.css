@@ -122,7 +122,8 @@ a {
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
     background-size: cover;
-    background-position: center;  
+    background-position: calc(50% + 50px) 50%;
+    
     height: 100vh;
     background-attachment: fixed;
 }
@@ -226,7 +227,6 @@ header {
     position: absolute;
     bottom: 20px;
     left: 20px;
-    
     background-color: rgba(0, 0, 0, 0.49);
     padding: 2px 5px;
     margin-right: 15px;
