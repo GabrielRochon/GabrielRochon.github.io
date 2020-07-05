@@ -224,6 +224,10 @@ header {
     font-size: 90%;
 }
 
+.blur-effect {          /* Effect while hovering project pics */
+    filter: blur(1px) grayscale(100%);
+}
+
 /* ------------------------------------ */
 /* RESUME                               */
 /* ------------------------------------ */

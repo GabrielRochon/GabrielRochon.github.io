@@ -17,4 +17,14 @@ $(document).ready(function() {
        $('html, body').animate({scrollTop: $('.js--section-contact').offset().top}, 1000); 
     });
     
+    
+    /* B&W blur effect when hover on project div */
+    $('.project-container').hover(function() {
+        $(this).children('img').addClass('blur-effect');
+    });
+    
+    $('.project-container').mouseleave(function() {
+        $(this).children('img').removeClass('blur-effect');
+    });
+    
 });
