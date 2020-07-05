@@ -99,21 +99,7 @@ a {
     margin-bottom: 10px;
 }
 
-/* ------- BUTTONS --------------- */
 
-.download-button {
-    transition: background-color 0.2s;
-}
-
-.download-button:link,
-.download-button:visited {
-    text-align: center;
-}
-
-.download-button:hover,
-.download-button:active {
-    background-color: #e7c744;
-}
 
 /* ------------------------------------ */
 /* HEADERS                              */
@@ -122,8 +108,7 @@ a {
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
     background-size: cover;
-    background-position: calc(50% + 50px) 50%;
-    
+    background-position: center;
     height: 100vh;
     background-attachment: fixed;
 }
@@ -244,6 +229,17 @@ header {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+    transition: background-color 0.2s;
+}
+
+.download-button:link,
+.download-button:visited {
+    text-align: center;
+}
+
+.download-button:hover,
+.download-button:active {
+    background-color: #e7c744;
 }
 
 
@@ -261,6 +257,12 @@ header {
     text-align: center;
     border: 10px solid #eee;        /* Workaround*/
     padding: 10px 0;
+    transition: background-color 0.2s;
+}
+
+.social-media:hover,
+.social-media:active {
+    background-color: #e7c744;
 }
 
 .social-media ion-icon {
