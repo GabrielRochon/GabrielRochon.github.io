@@ -2,7 +2,8 @@ $(document).ready(function() {
     
     /* Tooltipster */
      $('.tooltip').tooltipster({
-         plugins: ['follower']
+         plugins: ['follower'],
+         theme: ['tooltipster-shadow', 'tooltipster-shadow-customized']
      });
     
     /* Hero buttons scroll to sections */
