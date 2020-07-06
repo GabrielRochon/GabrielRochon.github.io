@@ -24,9 +24,7 @@
     }
     
     body { font-size: 17px; }
-    
-    h1 { font-size: 150%; }
-    
+        
     .col { width: 100% }    /* Cols will stack */
     
     .hero-buttons-bar { 
@@ -57,4 +55,6 @@
         height
         width: 100%;
     }
+    
+    body { font-size: 16px; }
 }

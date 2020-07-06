@@ -50,9 +50,10 @@ h3 {
 h1 {
     margin: 0 0 20px 0;
     color: #fff;
-    font-size: 220%;
+    font-size: 300%;
     word-spacing: 4px;
     letter-spacing: 1px;
+    max-width: 40vw;
 }
 
 h2 {
