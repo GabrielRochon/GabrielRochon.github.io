@@ -50,7 +50,7 @@ h3 {
 h1 {
     margin: 0 0 20px 0;
     color: #fff;
-    font-size: 200%;
+    font-size: 220%;
     word-spacing: 4px;
     letter-spacing: 1px;
 }
@@ -149,23 +149,36 @@ header {
 /* HERO BUTTONS                         */
 /* ------------------------------------ */
 
+.hero-title {
+    margin-bottom: 50px;
+}
+
 .hero-buttons-bar {
     float: right;
     width: 50%;
 }
 
-.hero-buttons-list a {
+.hero-buttons-list {
     text-transform: uppercase;
     color: #000;
 }
 
 .hero-button {
+    width: 50%;
     background-color: #e3be26;
     margin-right: 20%;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     font-size: 120%;
     padding: 5px;
     text-align: center;
+    transition: background-color 0.2s;
+    padding: 10px 0;
+    font-size: 150%;
+    letter-spacing: 2px;
+}
+
+.hero-button:hover {
+    background-color: orange;
 }
 
 
