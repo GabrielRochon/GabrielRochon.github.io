@@ -36,12 +36,20 @@ $.fn.popImg = function() {
     var img = new Image();
     img.onload = function(){
       $c.stop().animate({
-        width: 100%,
-        height: this.height / 4,
-        left: (dW - this.width) / 8,
-        top: (dH - this.height) / 8
+        width: this.width * dW / this.width,
+        height: this.height / this.width * dW,
+        left: 10,
+        top: 10
       }, 300);
     };
+      
+    /*  
+    if(img.width > img.height) {
+        img.height = (img.width * img.width) / img.height;
+    } else {
+        img.width = (img.height * img.width) / img.height;
+    }*/
+      
     img.src = $c.attr("src");
   };
 

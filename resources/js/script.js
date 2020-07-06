@@ -1,5 +1,12 @@
 $(document).ready(function() {
     
+    
+    /* Project pic click will make it zoom in */
+    $('.image-to-click').click(function() {
+        $(this).children('img').popImg();
+    });
+    
+    
     /* Hero buttons scroll to sections */
     $('.js--scroll-to-projects').click(function () {
        $('html, body').animate({scrollTop: $('.js--section-projects').offset().top}, 1000); 
