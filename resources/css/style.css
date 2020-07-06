@@ -37,7 +37,7 @@ html {
 }
 
 section {
-    padding: 30px 20px 50px 20px;
+    padding: 35px 20px 35px 20px;
 }
  
 /* ------- HEADINGS  --------------- */
@@ -235,6 +235,10 @@ header {
 /* SKILLS                               */
 /* ------------------------------------ */
 
+.section-skills {
+    background-color: #e8e8e8;
+}
+
 .mobile-disclaimer {
     text-align: center;
     font-style: italic;
@@ -306,6 +310,10 @@ header {
 /* SOCIAL MEDIA + CONTACT               */
 /* ------------------------------------ */
 
+.section-contact {
+    background-color: #e8e8e8;
+}
+
 .social-media-row {
     width: 100%;
     padding: 0 20px;
@@ -314,7 +322,7 @@ header {
 .social-media {
     background-color: rgba(204, 170, 27, 0.46);
     text-align: center;
-    border: 10px solid #eee;        /* Workaround*/
+    border: 10px solid #e8e8e8;        /* Workaround*/
     padding: 5px 0;
     transition: background-color 0.2s;
 }
@@ -338,7 +346,6 @@ footer {
     color: #999;
     font-size: 80%;
     padding: 20px;
-    margin-top: 20px;
 }
 
 .footer-nav li {
