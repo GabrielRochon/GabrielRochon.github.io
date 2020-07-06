@@ -36,10 +36,10 @@ $.fn.popImg = function() {
     var img = new Image();
     img.onload = function(){
       $c.stop().animate({
-        width: this.width * dW / this.width,
-        height: this.height / this.width * dW,
-        left: 10,
-        top: 10
+        width: (this.width * dW / this.width) * 0.8,
+        height: (this.height / this.width * dW) * 0.8,
+        left: (dW - ((this.width * dW / this.width) * 0.8))/2,
+        top: (dH - ((this.height / this.width * dW) * 0.8))/2
       }, 300);
     };
       
