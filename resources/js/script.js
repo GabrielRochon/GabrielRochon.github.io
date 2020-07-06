@@ -1,15 +1,10 @@
 $(document).ready(function() {
     
     /* Tooltipster */
-     $('.tooltip').tooltipster({
-         plugins: ['follower'],
-         theme: ['tooltipster-shadow', 'tooltipster-shadow-customized']
-     });
-    
-    
-    /* Sticky nav that appears after landing page */
-    
-    
+    $('.tooltip').tooltipster({
+        plugins: ['follower'],
+        theme: ['tooltipster-shadow', 'tooltipster-shadow-customized']
+    });
     
     /* Hero buttons scroll to sections */
     $('.js--scroll-to-projects').click(function () {
@@ -44,4 +39,27 @@ $(document).ready(function() {
         $(this).popImg();
     });
     
+    $('.skills-col h4').click(function() {
+        var display = $(this).next().css('display');
+        console.log(display);
+        
+        if(display === "block") {
+            $(this).next().css('display', 'none');
+        } else {
+            $(this).next().css('display', 'block');
+        }
+    });
+});
+
+
+
+$(window).on('resize', function(){
+      var win = $(this);
+    
+      // Dynamically removes skills desc for mobile phones
+      if (win.width() < 768) {
+          $('.skills-col h4').each(function() {
+              $(this).next().css('display', 'none');
+          });
+      }
 });
