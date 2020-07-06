@@ -37,7 +37,7 @@ html {
 }
 
 section {
-    padding: 40px 20px 40px 20px;
+    padding: 30px 20px 50px 20px;
 }
  
 /* ------- HEADINGS  --------------- */
@@ -91,15 +91,6 @@ a {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-}
-
-/* ------- ICONS --------------- */
-
-.icon-big {   /* used like a font */
-    font-size: 300%;
-    display: block;
-    color: #ef7e22;
-    margin-bottom: 10px;
 }
 
 
@@ -192,8 +183,7 @@ header {
     padding: 10px;
 }
 
-.projects-col h3,
-.skills-col h3 {
+.projects-col h3 {
     text-transform: uppercase;
     font-size: 80%;
     text-align: center;
@@ -252,16 +242,24 @@ header {
     margin: auto;
 }
 .skills-col {
-    margin: 0;
+    margin: 0 10px;
 }
 
+.skills-col h3 {
+    text-transform: uppercase;
+    font-size: 80%;
+    text-align: center;
+    margin: 0;
+    padding: 5px 0;
+    background-color: #fff;
+}
 
 .larger-skills-col {
-    width: 59%;
+    width: 58%;
 }
 
 .smaller-skills-col {
-    width: 39%;
+    width: 38%;
 }
 
 .skills-col h3 {
@@ -317,7 +315,7 @@ header {
     background-color: rgba(204, 170, 27, 0.46);
     text-align: center;
     border: 10px solid #eee;        /* Workaround*/
-    padding: 10px 0;
+    padding: 5px 0;
     transition: background-color 0.2s;
 }
 
@@ -327,7 +325,7 @@ header {
 }
 
 .social-media ion-icon {
-    margin-bottom: 10px;
+    margin: 6px 0 2px 0;
     font-size: 270%;
 }
 

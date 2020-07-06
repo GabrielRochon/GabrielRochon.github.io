@@ -58,10 +58,8 @@ $(document).ready(function() {
 
             if(display === "block") {
                 $(this).next().css('display', 'none');
-                $('.mobile-disclaimer').css('display', 'block');
             } else {
                 $(this).next().css('display', 'block');
-                $('.mobile-disclaimer').css('display', 'none');
             }
         }
     });
