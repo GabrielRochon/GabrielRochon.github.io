@@ -245,6 +245,12 @@ header {
 /* SKILLS                               */
 /* ------------------------------------ */
 
+.mobile-disclaimer {
+    text-align: center;
+    font-style: italic;
+    width: 75%;
+    margin: auto;
+}
 .skills-col {
     margin: 0;
 }

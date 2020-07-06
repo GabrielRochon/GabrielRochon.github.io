@@ -1,5 +1,17 @@
 $(document).ready(function() {
     
+      if ($(window).width() < 768) {
+          $('.skills-col h4').each(function() {
+              $(this).next().css('display', 'none');
+              $('.mobile-disclaimer').css('display', 'block');
+          });
+      } else {
+          $('.skills-col h4').each(function() {
+              $(this).next().css('display', 'block');
+              $('.mobile-disclaimer').css('display', 'none');
+          });
+      }
+    
     /* Tooltipster */
     $('.tooltip').tooltipster({
         plugins: ['follower'],
@@ -40,17 +52,20 @@ $(document).ready(function() {
     });
     
     $('.skills-col h4').click(function() {
-        var display = $(this).next().css('display');
-        console.log(display);
-        
-        if(display === "block") {
-            $(this).next().css('display', 'none');
-        } else {
-            $(this).next().css('display', 'block');
+        if($(window).width() < 768) {
+            var display = $(this).next().css('display');
+            console.log(display);
+
+            if(display === "block") {
+                $(this).next().css('display', 'none');
+                $('.mobile-disclaimer').css('display', 'block');
+            } else {
+                $(this).next().css('display', 'block');
+                $('.mobile-disclaimer').css('display', 'none');
+            }
         }
     });
 });
-
 
 
 $(window).on('resize', function(){
@@ -60,6 +75,12 @@ $(window).on('resize', function(){
       if (win.width() < 768) {
           $('.skills-col h4').each(function() {
               $(this).next().css('display', 'none');
+              $('.mobile-disclaimer').css('display', 'block');
+          });
+      } else {
+          $('.skills-col h4').each(function() {
+              $(this).next().css('display', 'block');
+              $('.mobile-disclaimer').css('display', 'none');
           });
       }
 });
