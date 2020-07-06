@@ -1,7 +1,8 @@
 /* This is how you would create a custom secondary theme on top of tooltipster-shadow: */
 
 .tooltipster-follower.tooltipster-shadow.tooltipster-shadow-customized .tooltipster-box {
-	max-width: 50%;
+	max-width: 40vw;
+    margin: 10px;
 }
 
 .tooltipster-follower.tooltipster-shadow.tooltipster-shadow-customized .tooltipster-content {
