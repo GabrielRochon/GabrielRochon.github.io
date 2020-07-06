@@ -29,7 +29,7 @@ $.fn.popImg = function() {
     });
   };
 
-  var justifyImg = function($c) {
+  var justifyImg = function($c) {  
     var dW = $(window).width();
     var dH = $(window).height();
     $c.css("cursor", "zoom-out").attr("data-b-img", 1);
@@ -42,19 +42,12 @@ $.fn.popImg = function() {
         top: (dH - ((this.height / this.width * dW) * 0.8))/2
       }, 300);
     };
-      
-    /*  
-    if(img.width > img.height) {
-        img.height = (img.width * img.width) / img.height;
-    } else {
-        img.width = (img.height * img.width) / img.height;
-    }*/
-      
     img.src = $c.attr("src");
   };
 
   this.each(function(){
-    $(this).css("cursor", "zoom-in").on("click", function(){
+    $(this).css("cursor", "zoom-in").on("click", function(){  
+      $('.project-container img').removeClass('blur-effect');
       var $b = $("body");
       $layer.appendTo($b);
       $layer.fadeIn(300);
