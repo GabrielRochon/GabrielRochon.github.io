@@ -319,16 +319,20 @@ header {
 /* RESUME                               */
 /* ------------------------------------ */
 
+.download-button-wrap {
+    margin: auto;
+    text-align: center;
+}
+
 .download-button {
     display: inline-block;
     background-color: #9A1750;
     text-align: center;
     padding: 10px;
     position: relative;
-    left: 50%;
-    transform: translateX(-50%);
     transition: background-color 0.2s;
     color: #eee;
+    margin: auto;
 }
 
 .download-button:link,
