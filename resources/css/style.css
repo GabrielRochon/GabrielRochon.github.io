@@ -202,17 +202,16 @@ header {
 /* ------------------------------------ */
 
 .projects-col {
-    padding: 10px;
 }
 
 .projects-col h3 {
     text-transform: uppercase;
     font-size: 80%;
     text-align: center;
-    padding: 5px 0;
+    /*padding: 5px 0;*/
     background-color: #9A1750;
     color: #eee;
-    margin: 0 5px 10px 5px;
+    /*margin: 0 5px 10px 5px;*/
 }
 
 .project-container {
@@ -232,7 +231,7 @@ header {
     display: block;
     object-fit: cover;
     height: 25vh;
-    padding: 5px;
+    /*padding: 5px;*/
     transition: 0.2s;
 }
 
@@ -268,7 +267,6 @@ header {
     margin: auto;
 }
 .skills-col {
-    margin: 0 10px;
 }
 
 .skills-col h3 {
@@ -282,11 +280,12 @@ header {
 }
 
 .larger-skills-col {
-    width: 57%;
+    width: 58%;
 }
 
 .smaller-skills-col {
-    width: 38%;
+    width: 39%;
+    float: right;
 }
 
 .skills-col h3 {
