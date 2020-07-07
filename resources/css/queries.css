@@ -50,6 +50,12 @@
         text-align: left;
     }
     
+    .project-container p {
+        bottom: 10px;
+        left: 10px;
+    }
+
+    
     .hero-buttons-bar { 
         width: 50%;
         float: right;
