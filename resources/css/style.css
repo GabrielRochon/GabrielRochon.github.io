@@ -23,7 +23,7 @@ html {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 20px;
-    line-height: 125%;
+    line-height: 135%;
     text-rendering: optimizeLegibility;
 }
 
@@ -111,7 +111,7 @@ a {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    width: 60%
+    width: 80%
 }
 
 
@@ -266,14 +266,14 @@ header {
     width: 75%;
     margin: auto;
 }
-.skills-col {
-}
+
+.skills-col { }
 
 .skills-col h3 {
     text-transform: uppercase;
     font-size: 80%;
     text-align: center;
-    margin: 0;
+    margin: 0 0 20px 0;
     padding: 5px 0;
     background-color: #9A1750;
     color: #eee;
@@ -338,17 +338,19 @@ header {
 }
 
 .social-media-row {
-    width: 100%;
     padding: 0 20px;
+    margin: auto;
 }
 
 .social-media {
+    font-size: 90%;
     background-color: #9A1750;
     text-align: center;
     border: 10px solid #e8e8e8;        /* Workaround*/
-    padding: 5px 0;
+    padding: 5px;
     transition: background-color 0.2s;
     color: #eee;
+    width: 33.333333333%;
 }
 
 .social-media:hover,
@@ -358,7 +360,8 @@ header {
 
 .social-media ion-icon {
     margin: 6px 0 2px 0;
-    font-size: 270%;
+    font-size: 200%;
+    padding: 0 5vw;
 }
 
 /* ------------------------------------ */

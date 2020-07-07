@@ -35,7 +35,7 @@
         font-size: 17px;
     }
         
-    .col { width: 100% }    /* Cols will stack */
+    .col:not(.social-media) { width: 100% }    /* Cols will stack */
     
     .hero-buttons-bar { 
         width: 50%;
