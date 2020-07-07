@@ -41,6 +41,15 @@
         width: 100%              /* Cols will stack */
     }   
     
+    .projects-col {
+        margin: 0;
+        text-align: center;
+    }
+    
+    .projects-col p {
+        text-align: left;
+    }
+    
     .hero-buttons-bar { 
         width: 50%;
         float: right;
