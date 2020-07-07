@@ -44,6 +44,11 @@
     .projects-col {
         margin: 0;
         text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .projects-col h3 {
+        margin: 0 2px 5px 2px;
     }
     
     .projects-col p {
@@ -94,6 +99,8 @@
     
     .skills-col h4 {
         margin-bottom: 10px;
+        font-weight: 400;
+        font-style: italic;
     }
     
 
