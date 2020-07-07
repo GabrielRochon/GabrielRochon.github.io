@@ -23,7 +23,9 @@
         background-position: calc(50% + 50px) 50%;
     }
     
-    body { font-size: 17px; }
+    body {
+        font-size: 17px;
+    }
         
     .col { width: 100% }    /* Cols will stack */
     
@@ -31,6 +33,14 @@
         width: 50%;
         float: right;
         font-size: 90%;
+    }
+    
+    .hero-button {
+        width: 75%;
+    }
+    
+    section {
+        padding: 30px 10vw;
     }
     
     .social-media ion-icon {
@@ -46,7 +56,10 @@
         height: 150px;
     }
     
-    .desc { width: 75%;}
+    .desc { 
+        width: 85%;
+        font-size: 100%;
+    }
     
     .skills-col h3 {
         margin-top: 20px;
