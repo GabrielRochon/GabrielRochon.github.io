@@ -35,7 +35,11 @@
         font-size: 17px;
     }
         
-    .col:not(.social-media) { width: 100% }    /* Cols will stack */
+    .projects-col,
+    .skills-col,
+    .social-media-row { 
+        width: 100%              /* Cols will stack */
+    }   
     
     .hero-buttons-bar { 
         width: 50%;
