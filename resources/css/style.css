@@ -111,7 +111,23 @@ a {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    width: 80%
+    width: 80%;
+    line-height: 150%;
+}
+
+.pink-highlight {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 0 3px;
+ }
+
+.pink-highlight {
+    background: rgba(244, 153, 180, 0.88); /* Default color, all browsers */
+}
+
+.pink-highlight::selection {
+    background: #EE4C7C;
 }
 
 
