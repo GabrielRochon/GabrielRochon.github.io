@@ -16,6 +16,14 @@
     }
 }
 
+@media only screen and (max-width: 901px) {
+    body { font-size: 18px; }
+    
+    .project-container img {
+        height: 150px;
+    }
+}
+
 /* Medium phones: 480 to 767px */
 @media only screen and (max-width: 767px) {
     
@@ -40,7 +48,7 @@
     }
     
     section {
-        padding: 30px 10vw;
+        padding: 30px 4vw;
     }
     
     .social-media ion-icon {
@@ -53,7 +61,7 @@
     }
     
     .project-container img {
-        height: 150px;
+        height: 140px;
     }
     
     .desc { 

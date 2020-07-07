@@ -46,7 +46,7 @@ html {
 }
 
 section {
-    padding: 35px 20px 35px 20px;
+    padding: 40px 20px 40px 20px;
 }
  
 /* ------- HEADINGS  --------------- */
@@ -71,12 +71,13 @@ h2 {
     font-size: 180%;
     word-spacing: 2px;
     text-align: center;
+    
     margin-bottom: 30px;    
     letter-spacing: 1px;
     text-transform: uppercase;
 }
 
-section h2:after {
+h2:after {
    background: none repeat scroll 0 0 #9A1750;
    bottom: -13px;
    content: "";
@@ -84,7 +85,7 @@ section h2:after {
    height: 2px;
    position: relative;
    width: 100px;
-   margin: auto;
+   margin: 0 auto 40px auto;
 }
 
 h3 {
