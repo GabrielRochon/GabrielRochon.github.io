@@ -38,6 +38,10 @@
     body {
         font-size: 17px;
     }
+    
+    .section-bio p {
+        width: 90%;
+    }
         
     .projects-col,
     .skills-col { 
