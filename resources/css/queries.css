@@ -23,10 +23,9 @@
         height: 150px;
     }
     
-    
-    .social-media-row {
+    /*.social-media-row {
         width: 70%;
-    }
+    }*/
 }
 
 /* Medium phones: 480 to 767px */
@@ -41,8 +40,7 @@
     }
         
     .projects-col,
-    .skills-col,
-    .social-media-row { 
+    .skills-col { 
         width: 100%              /* Cols will stack */
     }   
     
