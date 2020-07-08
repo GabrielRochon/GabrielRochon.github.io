@@ -67,8 +67,10 @@ $(document).ready(function() {
     });
     
     // Animations on scroll
-    $('.js--section-resume').waypoint(function(direction) {
-        console.log('I reached resume section');
+    $('.resume-button-wp').waypoint(function(direction) {
+        $('.download-button').addClass('animate__heartBeat');
+    }, {
+        offset: 0
     });
 });
 
