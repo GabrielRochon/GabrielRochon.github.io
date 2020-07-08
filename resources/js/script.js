@@ -1,16 +1,17 @@
 $(document).ready(function() {
     
-      if ($(window).width() < 768) {
-          $('.skills-col h4').each(function() {
-              $(this).next().css('display', 'none');
-              $('.mobile-disclaimer').css('display', 'block');
-          });
-      } else {
-          $('.skills-col h4').each(function() {
-              $(this).next().css('display', 'block');
-              $('.mobile-disclaimer').css('display', 'none');
-          });
-      }
+    /* Hide skill descriptions on mobile phones until toggle */
+    if ($(window).width() < 768) {
+        $('.skills-col h4').each(function() {
+            $(this).next().css('display', 'none');
+            $('.mobile-disclaimer').css('display', 'block');
+        });
+    } else {
+        $('.skills-col h4').each(function() {
+          $(this).next().css('display', 'block');
+          $('.mobile-disclaimer').css('display', 'none');
+      });
+    }
     
     /* Tooltipster */
     $('.tooltip').tooltipster({
@@ -51,6 +52,7 @@ $(document).ready(function() {
         $(this).popImg();
     });
     
+    // Clicking on a skill title on mobile will toggle descriptions
     $('.skills-col h4').click(function() {
         if($(window).width() < 768) {
             var display = $(this).next().css('display');
@@ -62,6 +64,11 @@ $(document).ready(function() {
                 $(this).next().css('display', 'block');
             }
         }
+    });
+    
+    // Animations on scroll
+    $('.js--section-resume').waypoint(function(direction) {
+        console.log('I reached resume section');
     });
 });
 
