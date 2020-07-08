@@ -129,6 +129,11 @@ a {
 
 
 /* ------ Delays ------------ */
+
+.download-delay {
+    animation-delay: .15s;
+}
+
 .first-social-media {
     animation-delay: .5s;
 }
