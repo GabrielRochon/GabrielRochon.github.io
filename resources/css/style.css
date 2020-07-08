@@ -358,6 +358,7 @@ header {
 .social-media-row {
     padding: 0 20px;
     margin: auto;
+    width: 50%;
 }
 
 .social-media {
@@ -379,7 +380,6 @@ header {
 .social-media ion-icon {
     margin: 6px 0 2px 0;
     font-size: 200%;
-    padding: 0 5vw;
 }
 
 /* ------------------------------------ */

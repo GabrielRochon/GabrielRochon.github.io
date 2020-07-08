@@ -22,6 +22,11 @@
     .project-container img {
         height: 150px;
     }
+    
+    
+    .social-media-row {
+        width: 70%;
+    }
 }
 
 /* Medium phones: 480 to 767px */
@@ -102,6 +107,10 @@
         font-weight: 400;
     }
     
+    
+    .social-media-row {
+        width: 90%;
+    }
 
 /* Small phones: 0 to 479px */
 @media only screen and (max-width: 479px) {
@@ -111,4 +120,9 @@
     }
     
     body { font-size: 16px; }
+    
+    
+    .social-media-row {
+        width: 100%;
+    }
 }
