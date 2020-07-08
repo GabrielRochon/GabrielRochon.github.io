@@ -376,20 +376,20 @@ header {
 }
 
 .social-media-row {
-    padding: 0 20px;
+    /* padding: 0 20px;
     margin: auto;
-    width: 50%;
+    width: 50%; */
 }
 
 .social-media {
     font-size: 90%;
     background-color: #9A1750;
     text-align: center;
-    padding: 5px;
+    /* padding: 5px;*/
     transition: background-color 0.2s, transform 0.2s;
     color: #eee;
-    margin: 10px;
-    width: 31%;
+    /* margin: 10px; */
+    /* width: 31%;*/
 }
 
 .social-media:hover,
