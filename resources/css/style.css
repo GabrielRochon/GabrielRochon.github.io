@@ -46,7 +46,7 @@ html {
 }
 
 section {
-    padding: 40px 20px 40px 20px;
+    padding: 50px 20px 50px 20px;
 }
  
 /* ------- HEADINGS  --------------- */
@@ -228,12 +228,25 @@ header {
     transform: scale(1.1);
 }
 
+/* ------------------------------------ */
+/* BIO                               */
+/* ------------------------------------ */
+
+.section-bio {
+    background-color: #e8e8e8;
+}
+
+.section-bio p {
+    padding-bottom: 0;
+}
+
 
 /* ------------------------------------ */
 /* MY PROJECTS                          */
 /* ------------------------------------ */
 
-.projects-col {
+.section-projects {
+    padding-bottom: 10px;
 }
 
 .projects-col h3 {
@@ -291,6 +304,7 @@ header {
 
 .section-skills {
     background-color: #e8e8e8;
+    padding-bottom: 10px;
 }
 
 .mobile-disclaimer {

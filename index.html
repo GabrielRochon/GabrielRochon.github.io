@@ -18,33 +18,12 @@
 
     <body>
         <header>
-            <nav class="main-nav">
-                <div class="row">
-                    <div class="col span-1-of-2 nav-name">
-                        Gabriel Rochon
-                    </div>
-                    <div class="col span-1-of-2 nav-links">
-                        <ul main-nav-list>
-                            <li>
-                                <a href="#">Projects</a>
-                            </li>
-                            <li>
-                                <a href="#">Skills</a>
-                            </li>
-                            <li>
-                                <a href="#">Resume</a>
-                            </li>
-                            <li>
-                                <a href="#">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
             <div class="hero-text-box">
                 <div class="col span-1-of-2 hero-buttons-bar">
-                    <h1 class="hero-titlen">Hi! I'm Gabriel.</h1>
+                    <h1 class="hero-title">Hi! I'm Gabriel.</h1>
                     <ul class="hero-buttons-list">
+                        <li class="hero-button js--scroll-to-bio" href="#">15 secs bio
+                        </li>
                         <li class="hero-button js--scroll-to-projects" href="#">Projects
                         </li>
                         <li class="hero-button js--scroll-to-skills" href="#">Skills
@@ -58,10 +37,15 @@
             </div>
         </header>
         
+        <section class="section-bio js--section-bio">
+            <h2>Know me in 15 seconds</h2>
+            <p class="desc">Hello! I am a 3rd year student in <span class="pink-highlight">Computer Engineering</span> living in Montreal, Canada. I am a <span class="pink-highlight">hackathon host</span>, former student council president and current fiction writer!</p>
+        </section>
+        
         <section class="section-projects js--section-projects">
             <div class="row">
                 <h2>My projects</h2>
-                <p class="desc">University life is <span class="pink-highlight">more than just studying</span>! Here are a few of the projects I work on on the side. <span class="pink-highlight">Hover for more details</span> or double-click to zoom image:</p>
+                <p class="desc">University life is <span class="pink-highlight">more than just studying</span>! Here are a few of the projects I work on on the side. Hover for more details or double-click to zoom image:</p>
             </div>
             <div class="row">
                 <div class="col span-1-of-3 projects-col">
@@ -213,6 +197,8 @@
         <footer>
             <div class="row">
                 <ul class="footer-nav">
+                    <li class="js--scroll-to-bio"><a href="#">15 Secs Bio</a></li>
+                    <li>|</li>
                     <li class="js--scroll-to-projects"><a href="#">Projects</a></li>
                     <li>|</li>
                     <li class="js--scroll-to-skills"><a href="#">Skills</a></li>

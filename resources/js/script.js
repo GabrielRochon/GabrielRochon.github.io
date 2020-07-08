@@ -20,6 +20,10 @@ $(document).ready(function() {
     });
     
     /* Hero buttons scroll to sections */
+    $('.js--scroll-to-bio').click(function () {
+       $('html, body').animate({scrollTop: $('.js--section-bio').offset().top}, 1000); 
+    });
+    
     $('.js--scroll-to-projects').click(function () {
        $('html, body').animate({scrollTop: $('.js--section-projects').offset().top}, 1000); 
     });
