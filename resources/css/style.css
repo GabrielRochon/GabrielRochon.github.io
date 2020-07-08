@@ -345,7 +345,7 @@ header {
     text-align: center;
     padding: 10px;
     position: relative;
-    transition: background-color 0.2s;
+    transition: background-color 0.2s, transform 0.2s;
     color: #eee;
     margin: auto;
 }
@@ -358,6 +358,7 @@ header {
 .download-button:hover,
 .download-button:active {
     background-color: #5D001E;
+    transform: scale(1.1);
 }
 
 
@@ -380,7 +381,7 @@ header {
     background-color: #9A1750;
     text-align: center;
     padding: 5px;
-    transition: background-color 0.2s;
+    transition: background-color 0.2s, transform 0.2s;
     color: #eee;
     margin: 10px;
     width: 31%;
@@ -389,6 +390,7 @@ header {
 .social-media:hover,
 .social-media:active {
     background-color: #5D001E;
+    transform: scale(1.1);
 }
 
 .social-media ion-icon {
