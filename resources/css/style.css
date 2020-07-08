@@ -211,7 +211,7 @@ header {
     font-size: 120%;
     padding: 5px;
     text-align: center;
-    transition: background-color 0.2s;
+    transition: background-color 0.2s, transform 0.2s;
     padding: 10px 0;
     font-size: 150%;
     letter-spacing: 2px;
@@ -220,6 +220,7 @@ header {
 
 .hero-button:hover {
     background-color: #5D001E;
+    transform: scale(1.1);
 }
 
 
