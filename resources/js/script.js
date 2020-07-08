@@ -69,8 +69,27 @@ $(document).ready(function() {
     // Animations on scroll
     $('.resume-button-wp').waypoint(function(direction) {
         $('.download-button').addClass('animate__heartBeat');
-    }, {
-        offset: 0
+    });
+    
+    $('.resume-button-wp').waypoint(function(direction) {
+        $('.social-media-1').each(function() {
+         $(this).addClass('first-social-media');
+         $(this).addClass('animate__bounceIn');
+        });
+    });
+    
+    $('.resume-button-wp').waypoint(function(direction) {
+        $('.social-media-2').each(function() {
+         $(this).addClass('second-social-media');
+         $(this).addClass('animate__bounceIn');
+        });
+    });
+    
+    $('.resume-button-wp').waypoint(function(direction) {
+        $('.social-media-3').each(function() {
+         $(this).addClass('third-social-media');
+         $(this).addClass('animate__bounceIn');
+        });
     });
 });
 
