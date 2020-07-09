@@ -14,10 +14,10 @@ $(document).ready(function() {
     }
     
     /* Tooltipster */
-    $('.tooltip').tooltipster({
+    /*$('.tooltip').tooltipster({
         plugins: ['follower'],
         theme: ['tooltipster-shadow', 'tooltipster-shadow-customized']
-    });
+    });*/
     
     /* Hero buttons scroll to sections */
     $('.js--scroll-to-bio').click(function () {
@@ -52,9 +52,13 @@ $(document).ready(function() {
     
     
     /* Project pic click will make it zoom in */
-    $('.project-container img').click(function() {
-        $(this).popImg();
+    var flipped = false;
+    $('.project-container').click(function() {
+        flipped ? $(this).css('transform', 'none') : $(this).css('transform', 'rotateY(-180deg)');
+        flipped = !flipped;
     });
+    
+    
     
     // Clicking on a skill title on mobile will toggle descriptions
     $('.skills-col h4').click(function() {
