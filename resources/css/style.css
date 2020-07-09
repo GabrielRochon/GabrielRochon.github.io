@@ -221,6 +221,7 @@ header {
     font-size: 150%;
     letter-spacing: 2px;
     color: #eee;
+    cursor: pointer;
 }
 
 .hero-button:hover {
