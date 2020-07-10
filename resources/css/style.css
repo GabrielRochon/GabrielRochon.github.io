@@ -296,10 +296,11 @@ header {
 .flipper .back {
     position: absolute;
     background-color: #9A1750;
+    height: 100%;
 }
 
 .flipper .back p {
-    padding: 15px;
+    padding: 0 2vw;
     font-size: 90%;
     color: #fff;
     line-height: 140%;
