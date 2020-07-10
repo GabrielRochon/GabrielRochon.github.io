@@ -35,7 +35,6 @@ $(document).ready(function() {
     });
     
     // Clicking on a project pic will make it flip
-    // .flip-container:hover .flipper, .flip-container.hover .flipper
     var flipped = false;
     $('.project-container').click(function() {
         var effect = flipped ? 'none' : 'rotateY(180deg)';
@@ -91,6 +90,11 @@ $(document).ready(function() {
     }, {
         offset: '100%'
     });
+    
+    // TEMPORARY: alerts user that dummy cv has been downloaded
+    $('.download-button').click(function() {
+        alert('This is a sample PDF file. This is not my resume. I will upload it once I am done making it.');
+    })
 });
 
 
