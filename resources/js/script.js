@@ -34,21 +34,14 @@ $(document).ready(function() {
        $('html, body').animate({scrollTop: $('.js--section-contact').offset().top}, 1000); 
     });
     
-    
-    /* B&W blur effect when hover on project div */
-    $('.project-container').hover(function() {
-        $(this).children('img').addClass('blur-effect');
-    });
-    
-    $('.project-container').mouseleave(function() {
-        $(this).children('img').removeClass('blur-effect');
-    });
-    
-    
-    /* Project pic click will make it zoom in */
-    $('.project-container img').click(function() {
-        $(this).popImg();
-    });
+    // Clicking on a project pic will make it flip
+    // .flip-container:hover .flipper, .flip-container.hover .flipper
+    var flipped = false;
+    $('.project-container').click(function() {
+        var effect = flipped ? 'none' : 'rotateY(180deg)';
+        $(this).children('.flip-container').children('.flipper').css('transform', effect);
+        flipped = !flipped;
+    })
     
     // Clicking on a skill title on mobile will toggle descriptions
     $('.skills-col h4').click(function() {
