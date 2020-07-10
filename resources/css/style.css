@@ -27,7 +27,10 @@ html {
     text-rendering: optimizeLegibility;
 }
 
-.clearfix {zoom: 1}
+.clearfix {
+    zoom: 1
+}
+
 .clearfix:after {
     content: '.';
     clear: both;
@@ -48,7 +51,7 @@ html {
 section {
     padding: 50px 20px 50px 20px;
 }
- 
+
 /* ------- HEADINGS  --------------- */
 
 h1,
@@ -71,21 +74,21 @@ h2 {
     font-size: 180%;
     word-spacing: 2px;
     text-align: center;
-    
-    margin-bottom: 30px;    
+
+    margin-bottom: 30px;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
 
 h2:after {
-   background: none repeat scroll 0 0 #9A1750;
-   bottom: -13px;
-   content: "";
-   display: block;
-   height: 2px;
-   position: relative;
-   width: 100px;
-   margin: 0 auto 40px auto;
+    background: none repeat scroll 0 0 #9A1750;
+    bottom: -13px;
+    content: "";
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 100px;
+    margin: 0 auto 40px auto;
 }
 
 h3 {
@@ -120,8 +123,9 @@ a {
     -moz-border-radius: 3px;
     border-radius: 3px;
     padding: 0 3px;
-    background: rgba(244, 153, 180, 0.88); /* Default color, all browsers */
- }
+    background: rgba(244, 153, 180, 0.88);
+    /* Default color, all browsers */
+}
 
 .pink-highlight::selection {
     background: #EE4C7C;
@@ -172,7 +176,8 @@ header {
     color: #fff;
     width: 100vw;
     position: fixed;
-    visibility: hidden;     /* Til we hit next section */
+    visibility: hidden;
+    /* Til we hit next section */
 }
 
 .nav-links {
@@ -300,7 +305,7 @@ header {
     padding: 15px;
     font-size: 90%;
     color: #fff;
-    
+
 }
 
 
@@ -320,7 +325,7 @@ header {
     margin: auto;
 }
 
-.skills-col { }
+.skills-col {}
 
 .skills-col h3 {
     text-transform: uppercase;
