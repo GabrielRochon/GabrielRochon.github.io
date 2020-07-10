@@ -13,12 +13,6 @@ $(document).ready(function() {
       });
     }
     
-    /* Tooltipster */
-    $('.tooltip').tooltipster({
-        plugins: ['follower'],
-        theme: ['tooltipster-shadow', 'tooltipster-shadow-customized']
-    });
-    
     /* Hero buttons scroll to sections */
     $('.js--scroll-to-bio').click(function () {
        $('html, body').animate({scrollTop: $('.js--section-bio').offset().top}, 1000); 

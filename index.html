@@ -1,258 +1,330 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <link rel="stylesheet" type="text/css" href="external/normalize.css">
-        <link rel="stylesheet" type="text/css" href="external/grid.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
-        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
-        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
-        <link rel="stylesheet" type="text/css" href="resources/css/custom-tooltip-style.css">
-        <link rel="stylesheet" type="text/css" href="external/tooltipster-master/dist/css/tooltipster.bundle.min.css" />
-        <link rel="stylesheet" type="text/css" href="external/flip.css" />
-        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
-        <title>Gabriel Rochon</title>
-    </head>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <body>
-        <header>
-            <div class="hero-text-box">
-                <div class="col span-1-of-2 hero-buttons-bar">
-                    <h1 class="hero-title">Hi! I'm Gabriel.</h1>
-                    <ul class="hero-buttons-list">
-                        <li class="hero-button js--scroll-to-bio" href="#">15 secs bio
-                        </li>
-                        <li class="hero-button js--scroll-to-projects" href="#">Projects
-                        </li>
-                        <li class="hero-button js--scroll-to-skills" href="#">Skills
-                        </li>
-                        <li class="hero-button js--scroll-to-resume" href="#">Resume
-                        </li>
-                        <li class="hero-button js--scroll-to-contact" href="#">Contact
-                        </li>
-                    </ul>
-                </div>
+    <link rel="stylesheet" type="text/css" href="external/normalize.css">
+    <link rel="stylesheet" type="text/css" href="external/grid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/custom-tooltip-style.css">
+    <link rel="stylesheet" type="text/css" href="external/tooltipster-master/dist/css/tooltipster.bundle.min.css" />
+    <link rel="stylesheet" type="text/css" href="external/flip.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <title>Gabriel Rochon</title>
+</head>
+
+<body>
+    <header>
+        <div class="hero-text-box">
+            <div class="col span-1-of-2 hero-buttons-bar">
+                <h1 class="hero-title">Hi! I'm Gabriel.</h1>
+                <ul class="hero-buttons-list">
+                    <li class="hero-button js--scroll-to-bio" href="#">15 secs bio
+                    </li>
+                    <li class="hero-button js--scroll-to-projects" href="#">Projects
+                    </li>
+                    <li class="hero-button js--scroll-to-skills" href="#">Skills
+                    </li>
+                    <li class="hero-button js--scroll-to-resume" href="#">Resume
+                    </li>
+                    <li class="hero-button js--scroll-to-contact" href="#">Contact
+                    </li>
+                </ul>
             </div>
-        </header>
-        
-        <section class="section-bio js--section-bio">
-            <h2>Know me in 15 seconds</h2>
-            <p class="desc">Hello! I am working on my bio... </p>
-        </section>
-        
-        <section class="section-projects js--section-projects">
-            <div class="row">
-                <h2>My projects</h2>
-                <p class="desc">University life is <span class="pink-highlight">more than just studying</span>! Here are a few of the projects I work on on the side. Click on an image to show more details.</p>
-            </div>
-            <div class="row">
-                <div class="col span-1-of-3 projects-col">
-                    <h3>University committees</h3>
-                    <div class="project-container">
-                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                            <div class="flipper">
-                                <div class="front">
-                                    <img src="resources/img/projects/hackathon-host.jpg" alt="Hackathon Host">
-                                    <p>Hackathon Host</p>
-                                </div>
-                                <div class="back">
-                                    <p>As a hackathon host, I am used to presenting in front of 400+ hackers, no big deal!</p>
-                                </div>
+        </div>
+    </header>
+
+    <section class="section-bio js--section-bio">
+        <h2>Know me in 15 seconds</h2>
+        <p class="desc">Hello! I am working on my bio... </p>
+    </section>
+
+    <section class="section-projects js--section-projects">
+        <div class="row">
+            <h2>My projects</h2>
+            <p class="desc">University life is <span class="pink-highlight">more than just studying</span>! Here are a few of the projects I work on on the side. Click on an image to show more details.</p>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3 projects-col">
+                <h3>University committees</h3>
+                <div class="project-container">
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper">
+                            <div class="front">
+                                <img src="resources/img/projects/hackathon-host.jpg" alt="Hackathon Host">
+                                <p>Hackathon Host</p>
+                            </div>
+                            <div class="back">
+                                <p>As a hackathon host, I am used to presenting in front of 400+ hackers, no big deal!</p>
                             </div>
                         </div>
                     </div>
-                    <div class="project-container">
-                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                            <div class="flipper">
-                                <div class="front">
-                                     <img src="resources/img/projects/voxpop.jpg" alt="Vox Pop">
-                                    <p>Content Creator</p>
-                                </div>
-                                <div class="back">
-                                    <p>As a content creator, I create and share content about my university on their social media accounts.</p>
-                                </div>
+                </div>
+                <div class="project-container">
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper">
+                            <div class="front">
+                                <img src="resources/img/projects/voxpop.jpg" alt="Vox Pop">
+                                <p>Content Creator</p>
+                            </div>
+                            <div class="back">
+                                <p>As a content creator, I create and share content about my university on their social media accounts.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="project-container">
-                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                            <div class="flipper">
-                                <div class="front">
-                                    <img src="resources/img/projects/ambassadeur.jpg" alt="Polytechnique Ambassador">
-                                    <p>Student Ambassador</p>
-                                </div>
-                                <div class="back">
-                                    <p>As an ambassador, I act as a tour guide during Open House days and hold conferences in neighbouring high schools.</p>
-                                </div>
+                </div>
+                <div class="project-container">
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper">
+                            <div class="front">
+                                <img src="resources/img/projects/ambassadeur.jpg" alt="Polytechnique Ambassador">
+                                <p>Student Ambassador</p>
+                            </div>
+                            <div class="back">
+                                <p>As an ambassador, I act as a tour guide during Open House days and hold conferences in neighbouring high schools.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="project-container">
-                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                            <div class="flipper">
-                                <div class="front">
-                                   <img src="resources/img/projects/polyhx-sponsor.jpg" alt="VP Sponsorship for PolyHx">
-                                    <p>Hackathon VP Sponsorship</p>
-                                </div>
-                                <div class="back">
-                                    <p>As the VP Sponsorship of my hackathon's committee, I am in charge with finding sponsors and securing funds for our events.</p>
-                                </div>
+                </div>
+                <div class="project-container">
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper">
+                            <div class="front">
+                                <img src="resources/img/projects/polyhx-sponsor.jpg" alt="VP Sponsorship for PolyHx">
+                                <p>Hackathon VP Sponsorship</p>
+                            </div>
+                            <div class="back">
+                                <p>As the VP Sponsorship of my hackathon's committee, I am in charge with finding sponsors and securing funds for our events.</p>
                             </div>
                         </div>
                     </div>
-                    </div>
                 </div>
-                <div class="col span-1-of-3 projects-col">
-                    <h3>Featured coding projects</h3>
-                    <div class="project-container">
-                        <img src="resources/img/projects/gant-traducteur-lsq.jpg" alt="Sign Language Translating Glove" class="tooltip" title="In 2018, I created a glove that translates sign-language alphabet, using C++, Python and Arduino.">
-                        <p>Sign Language Translating Glove</p>
-                    </div>
-                    <div class="project-container">
-                        <img src="resources/img/projects/projet-picasso.png" alt="Online Drawing Tool" class="tooltip" title="In 2020, I created an online drawing tool similar to Paint, using the MEAN stack.">
-                        <p>Online Drawing Tool</p>
-                    </div>
-                    <div class="project-container">
-                        <img src="resources/img/projects/robot-projet1.jpg" alt="Line-Following Robot", class="tooltip" title="In 2019, I built a line-following robot (embedded system) that had to run through an obstacle course, using C and C++.">
-                        <p>Obstacle Course Robot</p>
-                    </div>
-                    <div class="project-container">
-                        <img src="resources/img/projects/wattpadstats.PNG" alt="Wattpad Web Scraper" class="tooltip" title="As of July 2020, I am currently working on a web scraper that lists my novel's stats by scraping the website I am publishing it on, using Python.">
-                        <p>Web Scraper</p>
-                    </div>
-                </div>
-                <div class="col span-1-of-3 projects-col">
-                    <h3>Featured interests</h3>
-                    <div class="project-container">
-                        <img src="resources/img/projects/explore-staff.jpg" alt="Job in 2nd language - Explore Program" class="tooltip" title="English is my 2nd language, which is why I felt the need to become bilingual by working for the English-immersive Explore program!">
-                        <p>Explore Program</p>
-                    </div>
-                    <div class="project-container">
-                        <img src="resources/img/projects/ecriture-lechat.jpg" alt="Reading of my short story in front of public" class="tooltip" title="I am a fiction writer! I like to write thrillers and sci-fi novels.">
-                        <p>Fiction Writing</p>
-                    </div>
-                    <div class="project-container">
-                        <img src="resources/img/projects/lieutenant-gouverneur.jpg" alt="Recipient of the Lieutenant-Governor Youth Medal" class="tooltip" title="I was awarded the Lieutenant-Governor Medal for my leadership, communication skills & good grades during my last year of high school.">
-                        <p>Lieutenant-Governor's Medal</p>
-                    </div>
-                    <div class="project-container">
-                        <img src="resources/img/projects/hemaquebec.png" alt="Blood Donor" class="tooltip" title="Giving back to the community feels so good! As of July 2020, I have donated blood 43 times.">
-                        <p>Blood Donor</p>
+            </div>
+        </div>
+        <div class="col span-1-of-3 projects-col">
+            <h3>Featured coding projects</h3>
+            <div class="project-container">
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class="front">
+                            <img src="resources/img/projects/gant-traducteur-lsq.jpg" alt="Sign Language Translating Glove" alt="Sign Language Translating Glove">
+                            <p>Sign Language Translating Glove</p>
+                        </div>
+                        <div class="back">
+                            <p>In 2018, I created a glove that translates sign-language alphabet, using C++, Python and Arduino.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-        
-        <!-- To be filled later -->
-        <section class="section-skills js--section-skills">
-            <div class="row">
-                <h2>My skills</h2>
-                <p class="mobile-disclaimer">(Click on a title to show its details.)</p>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col span-1-of-2 skills-col larger-skills-col">
-                    <h3>Certifications</h3>
-                    <div class="skills-item">
-                        <h4>Microsoft Certified: Azure Fundamentals</h4>
-                        <p>In progress!</p>
-                    </div>
-                    <div class="skills-item">
-                        <h4>Certification 2 [TBD]</h4>
-                        <p>This is a demo certification. It demonstrates that I can do stuff, do other stuff and finally do stuff I haven't told you about yet</p>
-                    </div>
-                    <h3>Awards</h3>
-                    <div class="skills-item">
-                        <h4>Lieutenant-Governor's Medal</h4>
-                        <p>I was awarded the Lieutenant-Governor Medal for my leadership, communication skills &amp; good grades during my last year of high school.</p>
-                        <h4>Outstanding Personality Award</h4>
-                        <p>Given to the freshman among its cohort who stood out for its leadership &amp; perseverance.</p>
+            <div class="project-container">
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class="front">
+                            <img src="resources/img/projects/robot-projet1.jpg" alt="Line-Following Robot">
+                            <p>Line-Following Robot</p>
+                        </div>
+                        <div class="back">
+                            <p>In 2019, I built a line-following robot (embedded system) that had to run through an obstacle course, using C and C++.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col span-1-of-2 skills-col smaller-skills-col">
-                    <h3>Coding skills</h3>
-                    <h4>Object-Oriented Programming</h4>
-                    <p>Python, C++, Java</p>
-                    <h4>Web Apps</h4>
-                    <p>Angular, Typescript (MEAN Stack)</p>
-                    <h4>Web design</h4>
-                    <p>HTML, CSS, Javascript<br><em>(I built this website!)</em></p>
-                    <h4>Cloud Technologies</h4>
-                    <p>Azure, AWS</p>
-                    <h4>Project Management</h4>
-                    <p>Git, Scrum, Agile, Kanban, Stand-Ups</p>
+            </div>
+            <div class="project-container">
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class="front">
+                            <img src="resources/img/projects/wattpadstats.PNG" alt="Wattpad Web Scraper">
+                            <p>Wattpad Web Scraper</p>
+                        </div>
+                        <div class="back">
+                            <p>As of July 2020, I am currently working on a web scraper that lists my novel's stats by scraping the website I am publishing it on, using Python.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="resume-button-wp"></div>
-        </section>
-        
-        <section class="section-resume js--section-resume">
-            <div class="row">
-                <h2>Resume</h2>
-                <p class="desc">Are you looking for someone <span class="pink-highlight">creative, dynamic and eager to learn</span> as a PM or SWE intern?</p>
+            <div class="project-container">
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class="front">
+                            <img src="resources/img/projects/projet-picasso.png" alt="Online Drawing Tool">
+                            <p>Online Drawing Tool</p>
+                        </div>
+                        <div class="back">
+                            <p>In 2020, I created an online drawing tool similar to Paint, using the MEAN stack.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="row download-button-wrap">
-                <a href="resources/img/dummy.pdf" download>
-                    <div class="download-button">
-                        Download my resume
+        </div>
+        <div class="col span-1-of-3 projects-col">
+            <h3>Featured interests</h3>
+            <div class="project-container">
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class="front">
+                            <img src="resources/img/projects/explore-staff.jpg" alt="Job in 2nd language - Explore Program">
+                            <p>Explore Program</p>
+                        </div>
+                        <div class="back">
+                            <p>English is my 2nd language, which is why I felt the need to become bilingual by working for the English-immersive Explore program!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-container">
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class="front">
+                            <img src="resources/img/projects/ecriture-lechat.jpg" alt="Reading of my short story in front of public">
+                            <p>Fiction Writing</p>
+                        </div>
+                        <div class="back">
+                            <p>I am a fiction writer! I like to write thrillers and sci-fi novels.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-container">
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class="front">
+                            <img src="resources/img/projects/lieutenant-gouverneur.jpg" alt="Recipient of the Lieutenant-Governor Youth Medal">
+                            <p>Leiutenant-Governor's Medal</p>
+                        </div>
+                        <div class="back">
+                            <p>I was awarded the Lieutenant-Governor Medal for my leadership, communication skills &amp; good grades during my last year of high school.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-container">
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class="front">
+                            <img src="resources/img/projects/hemaquebec.png" alt="Blood Donor">
+                            <p>Blood Donor</p>
+                        </div>
+                        <div class="back">
+                            <p>Giving back to the community feels so good! As of July 2020, I have donated blood 43 times.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- To be filled later -->
+    <section class="section-skills js--section-skills">
+        <div class="row">
+            <h2>My skills</h2>
+            <p class="mobile-disclaimer">(Click on a title to show its details.)</p>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col span-1-of-2 skills-col larger-skills-col">
+                <h3>Certifications</h3>
+                <div class="skills-item">
+                    <h4>Microsoft Certified: Azure Fundamentals</h4>
+                    <p>In progress!</p>
+                </div>
+                <div class="skills-item">
+                    <h4>Certification 2 [TBD]</h4>
+                    <p>This is a demo certification. It demonstrates that I can do stuff, do other stuff and finally do stuff I haven't told you about yet</p>
+                </div>
+                <h3>Awards</h3>
+                <div class="skills-item">
+                    <h4>Lieutenant-Governor's Medal</h4>
+                    <p>I was awarded the Lieutenant-Governor Medal for my leadership, communication skills &amp; good grades during my last year of high school.</p>
+                    <h4>Outstanding Personality Award</h4>
+                    <p>Given to the freshman among its cohort who stood out for its leadership &amp; perseverance.</p>
+                </div>
+            </div>
+            <div class="col span-1-of-2 skills-col smaller-skills-col">
+                <h3>Coding skills</h3>
+                <h4>Object-Oriented Programming</h4>
+                <p>Python, C++, Java</p>
+                <h4>Web Apps</h4>
+                <p>Angular, Typescript (MEAN Stack)</p>
+                <h4>Web design</h4>
+                <p>HTML, CSS, Javascript<br><em>(I built this website!)</em></p>
+                <h4>Cloud Technologies</h4>
+                <p>Azure, AWS</p>
+                <h4>Project Management</h4>
+                <p>Git, Scrum, Agile, Kanban, Stand-Ups</p>
+            </div>
+        </div>
+        <div class="resume-button-wp"></div>
+    </section>
+
+    <section class="section-resume js--section-resume">
+        <div class="row">
+            <h2>Resume</h2>
+            <p class="desc">Are you looking for someone <span class="pink-highlight">creative, dynamic and eager to learn</span> as a PM or SWE intern?</p>
+        </div>
+        <div class="row download-button-wrap">
+            <a href="resources/img/dummy.pdf" download>
+                <div class="download-button">
+                    Download my resume
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section class="section-contact js--section-contact">
+        <div class="row">
+            <h2>Contact me</h2>
+            <p class="desc">I would love to know more about you and how I can help your business meet its goals. You can reach me via email or take a look at my other social networks:</p>
+        </div>
+        <div class="row">
+            <div class="social-media-row">
+                <a href="mailto:rochon.gabriel1@gmail.com">
+                    <div class="col span-1-of-3 social-media social-media-1">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <p>Email</p>
+                    </div>
+                </a>
+                <a href="https://github.com/GabrielRochon">
+                    <div class="col span-1-of-3 social-media social-media-2">
+                        <ion-icon name="logo-github"></ion-icon>
+                        <p>GitHub</p>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/in/gabrielrochon/">
+                    <div class="col span-1-of-3 social-media social-media-3">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                        <p>LinkedIn</p>
                     </div>
                 </a>
             </div>
-        </section>
-        
-        <section class="section-contact js--section-contact">
-            <div class="row">
-                <h2>Contact me</h2>
-                <p class="desc">I would love to know more about you and how I can help your business meet its goals. You can reach me via email or take a look at my other social networks:</p>
-            </div>
-            <div class="row">
-                <div class="social-media-row">
-                    <a href="mailto:rochon.gabriel1@gmail.com">
-                        <div class="col span-1-of-3 social-media social-media-1">
-                            <ion-icon name="mail-outline"></ion-icon>
-                            <p>Email</p>
-                        </div>
-                    </a>
-                    <a href="https://github.com/GabrielRochon">
-                        <div class="col span-1-of-3 social-media social-media-2">
-                            <ion-icon name="logo-github"></ion-icon>
-                            <p>GitHub</p>
-                        </div>
-                    </a>
-                    <a href="https://www.linkedin.com/in/gabrielrochon/">
-                        <div class="col span-1-of-3 social-media social-media-3">
-                            <ion-icon name="logo-linkedin"></ion-icon>
-                            <p>LinkedIn</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </section>
-        
-        <footer>
-            <div class="row">
-                <ul class="footer-nav">
-                    <li class="js--scroll-to-bio"><a href="#">15 Secs Bio</a></li>
-                    <li>|</li>
-                    <li class="js--scroll-to-projects"><a href="#">Projects</a></li>
-                    <li>|</li>
-                    <li class="js--scroll-to-skills"><a href="#">Skills</a></li>
-                    <li>|</li>
-                    <li class="js--scroll-to-resume"><a href="#">Resume</a></li>
-                    <li>|</li>
-                    <li class="js--scroll-to-contact"><a href="#">Links &amp; contact</a></li>
-                </ul>
-            </div>
-        </footer>
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js" integrity="sha256-JklDYODbg0X+8sPiKkcFURb5z7RvlNMIaE3RA2z97vw=" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
-        <script src="external/popImg.js"></script>
-        <script src="resources/js/script.js"></script>
-        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
-    </body>
+        </div>
+    </section>
+
+    <footer>
+        <div class="row">
+            <ul class="footer-nav">
+                <li class="js--scroll-to-bio"><a href="#">15 Secs Bio</a></li>
+                <li>|</li>
+                <li class="js--scroll-to-projects"><a href="#">Projects</a></li>
+                <li>|</li>
+                <li class="js--scroll-to-skills"><a href="#">Skills</a></li>
+                <li>|</li>
+                <li class="js--scroll-to-resume"><a href="#">Resume</a></li>
+                <li>|</li>
+                <li class="js--scroll-to-contact"><a href="#">Links &amp; contact</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js" integrity="sha256-JklDYODbg0X+8sPiKkcFURb5z7RvlNMIaE3RA2z97vw=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
+    <script src="external/popImg.js"></script>
+    <script src="resources/js/script.js"></script>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+</body>
 
 </html>
