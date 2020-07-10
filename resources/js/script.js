@@ -67,38 +67,11 @@ $(document).ready(function () {
     });
 
     // Animations on scroll
-    $('.footer-nav').waypoint(function (direction) {
-        $('.download-button').addClass('download-delay');
-        $('.download-button').addClass('animate__heartBeat');
+    $('.download-button').waypoint(function (direction) {
+        $(this).addClass('download-delay');
+        $(this).addClass('animate__heartBeat');
     }, {
-        offset: '100%'
-    });
-
-    $('.footer-nav').waypoint(function (direction) {
-        $('.social-media-1').each(function () {
-            $(this).addClass('first-social-media');
-            $(this).addClass('animate__bounceIn');
-        });
-    }, {
-        offset: '100%'
-    });
-
-    $('.footer-nav').waypoint(function (direction) {
-        $('.social-media-2').each(function () {
-            $(this).addClass('second-social-media');
-            $(this).addClass('animate__bounceIn');
-        });
-    }, {
-        offset: '100%'
-    });
-
-    $('.footer-nav').waypoint(function (direction) {
-        $('.social-media-3').each(function () {
-            $(this).addClass('third-social-media');
-            $(this).addClass('animate__bounceIn');
-        });
-    }, {
-        offset: '100%'
+        offset: 'bottom-in-view'
     });
 
     // TEMPORARY: alerts user that dummy cv has been downloaded
