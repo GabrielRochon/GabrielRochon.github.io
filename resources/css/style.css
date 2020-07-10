@@ -310,6 +310,10 @@ header {
     text-decoration: underline;
 }
 
+.projet1-robot {
+    object-position: bottom;
+}
+
 
 /* ------------------------------------ */
 /* SKILLS                               */
