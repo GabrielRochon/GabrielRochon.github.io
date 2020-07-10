@@ -264,7 +264,6 @@ header {
     display: block;
     object-fit: cover;
     height: 25vh;
-    /*padding: 5px;*/
 }
 
 .flipper {
@@ -275,6 +274,8 @@ header {
 .flipper .back {
   height: 100%;
   display: flex;
+  align-content: flex-start;     /* To fix extra space issue */
+  top: 2px;
   align-items: center;
   justify-content: center;
 }
