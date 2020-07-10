@@ -290,7 +290,7 @@ header {
 }
 
 .flipper .back {
-    background-color: aliceblue;
+    background-color: #9A1750;
 }
 
 .flipper .back p {
@@ -299,6 +299,7 @@ header {
     margin: 0;
     padding: 15px;
     font-size: 90%;
+    color: #fff;
     
 }
 
