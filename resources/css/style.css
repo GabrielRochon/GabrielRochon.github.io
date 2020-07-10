@@ -293,7 +293,12 @@ header {
     padding: 15px;
     font-size: 90%;
     color: #fff;
+    line-height: 140%;
+}
 
+.flipper .back a {
+    color: #ff8d9e;
+    text-decoration: underline;
 }
 
 

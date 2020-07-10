@@ -13,6 +13,7 @@ $(document).ready(function () {
         });
     }
 
+    
     /* Hero buttons scroll to sections */
     $('.js--scroll-to-bio').click(function () {
         $('html, body').animate({
@@ -44,6 +45,7 @@ $(document).ready(function () {
         }, 1000);
     });
 
+    
     // Clicking on a project pic will make it flip
     var flipped = false;
     $('.project-container').click(function () {
@@ -51,6 +53,7 @@ $(document).ready(function () {
         $(this).children('.flip-container').children('.flipper').css('transform', effect);
         flipped = !flipped;
     })
+    
 
     // Clicking on a skill title on mobile will toggle descriptions
     $('.skills-col h4').click(function () {
@@ -65,6 +68,7 @@ $(document).ready(function () {
             }
         }
     });
+    
 
     // Animations on scroll
     $('.download-button').waypoint(function (direction) {
@@ -74,6 +78,7 @@ $(document).ready(function () {
         offset: 'bottom-in-view'
     });
 
+    
     // TEMPORARY: alerts user that dummy cv has been downloaded
     $('.download-button').click(function () {
         alert('This is a sample PDF file. This is not my resume. I will upload it once I am done making it.');
