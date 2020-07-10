@@ -49,10 +49,9 @@ $(document).ready(function () {
     // Clicking on a project pic will make it flip
     var flipped = false;
     $('.project-container').click(function () {
-        var effect = flipped ? 'none' : 'rotateY(180deg)';
+        var effect = $(this).children('.flip-container').children('.flipper').css('transform') != 'none' ? 'none' : 'rotateY(180deg)';
         $(this).children('.flip-container').children('.flipper').css('transform', effect);
-        flipped = !flipped;
-    })
+    });
     
 
     // Clicking on a skill title on mobile will toggle descriptions

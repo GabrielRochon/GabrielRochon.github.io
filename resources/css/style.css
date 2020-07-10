@@ -269,6 +269,17 @@ header {
     /*padding: 5px;*/
 }
 
+.flipper {
+    position: relative;
+}
+
+.flipper .front,
+.flipper .back {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .flipper .front p {
     color: #fff;
@@ -283,13 +294,11 @@ header {
 }
 
 .flipper .back {
+    position: absolute;
     background-color: #9A1750;
 }
 
 .flipper .back p {
-    top: 0;
-    left: 0;
-    margin: 0;
     padding: 15px;
     font-size: 90%;
     color: #fff;
