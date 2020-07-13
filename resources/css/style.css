@@ -244,6 +244,11 @@ header {
 
 .section-projects {
     padding-bottom: 10px;
+    
+}
+
+.projects-col {
+    font-size: 80%;
 }
 
 .projects-col h3 {
@@ -252,6 +257,10 @@ header {
     text-align: center;
     background-color: #9A1750;
     color: #eee;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: 400;
+    padding: 2px 0;
 }
 
 .project-container {
