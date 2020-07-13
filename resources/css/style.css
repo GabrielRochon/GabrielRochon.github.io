@@ -211,7 +211,7 @@ header {
     margin-bottom: 25px;
     padding: 5px;
     text-align: center;
-    transition: background-color 0.2s, transform 0.2s;
+    transition: background-color 0.2s, transform 0.2s;   transition-timing-function: ease-in-out;
     padding: 10px 0;
     font-size: 150%;
     letter-spacing: 4px;
@@ -284,6 +284,7 @@ header {
 
 .flipper .front,
 .flipper .back {
+    
     height: 100%;
     display: flex;
     align-content: flex-start;
@@ -395,6 +396,7 @@ header {
     padding: 10px;
     position: relative;
     transition: background-color 0.2s, transform 0.2s;
+    transition-timing-function: ease-in-out;
     color: #eee;
     margin: auto;
 }
@@ -439,6 +441,7 @@ header {
     text-align: center;
     padding: 8px;
     transition: background-color 0.2s, transform 0.2s;
+    transition-timing-function: ease-in-out;
     color: #eee;
     /* margin: 10px; */
     /* width: 31%;*/
