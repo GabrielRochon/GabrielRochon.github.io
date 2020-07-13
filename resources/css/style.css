@@ -267,6 +267,7 @@ header {
 .project-container {
     position: relative;
     width: 100%;
+    cursor: pointer;
 }
 
 .project-container img {
