@@ -127,6 +127,17 @@
         font-size: 15px;
     }
     
+    .bio-uni-details,
+    .section-bio ul {
+        display: block;
+        float: none;
+        vertical-align: middle;
+    }
+    
+    .section-bio ul {
+        margin: 10px 35px;
+    }
+    
     .project-container {
         display: inline-block;
         width: 98%;
