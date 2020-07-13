@@ -130,8 +130,13 @@
     body {
         font-size: 15px;
     }
-
-
+    
+    .project-container {
+        display: inline-block;
+        width: 98%;
+        /* Temporary workaround, fix later */
+    }
+    
     .social-media {
         width: 25vw;
         margin: 0 2vw;
