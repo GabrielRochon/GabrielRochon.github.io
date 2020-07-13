@@ -435,7 +435,7 @@ header {
     font-size: 90%;
     background-color: #9A1750;
     text-align: center;
-    /* padding: 5px;*/
+    padding: 8px;
     transition: background-color 0.2s, transform 0.2s;
     color: #eee;
     /* margin: 10px; */
