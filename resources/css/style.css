@@ -43,14 +43,15 @@ html {
 /* REUSABLE COMPONENTS                  */
 /* ------------------------------------ */
 
+section {
+    padding: 50px 4vw;
+}
+
 .row {
     max-width: 1140px;
     margin: 0 auto;
 }
 
-section {
-    padding: 50px 20px 50px 20px;
-}
 
 /* ------- HEADINGS  --------------- */
 
@@ -244,7 +245,7 @@ header {
 
 .section-projects {
     padding-bottom: 10px;
-    
+
 }
 
 .projects-col {
@@ -283,12 +284,13 @@ header {
 
 .flipper .front,
 .flipper .back {
-  height: 100%;
-  display: flex;
-  align-content: flex-start;     /* To fix extra space issue */
-  top: 2px;
-  align-items: center;
-  justify-content: center;
+    height: 100%;
+    display: flex;
+    align-content: flex-start;
+    /* To fix extra space issue */
+    top: 2px;
+    align-items: center;
+    justify-content: center;
 }
 
 .flipper .front p {
