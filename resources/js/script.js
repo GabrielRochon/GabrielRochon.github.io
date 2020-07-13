@@ -54,21 +54,6 @@ $(document).ready(function () {
     });
     
 
-    // Clicking on a skill title on mobile will toggle descriptions
-    $('.skills-col h4').click(function () {
-        if ($(window).width() < 768) {
-            var display = $(this).next().css('display');
-            console.log(display);
-
-            if (display === "block") {
-                $(this).next().css('display', 'none');
-            } else {
-                $(this).next().css('display', 'block');
-            }
-        }
-    });
-    
-
     // Animations on scroll
     $('.download-button').waypoint(function (direction) {
         $(this).addClass('download-delay');
