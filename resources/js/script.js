@@ -63,9 +63,9 @@ $(document).ready(function () {
     });
 
     
-    // TEMPORARY: alerts user that dummy cv has been downloaded
+    // Thank you for your interest!
     $('.download-button').click(function () {
-        alert('This is a sample PDF file. This is not my resume. I will upload it once I am done making it.');
+        alert('Thank you for your interest! I am looking forward to hearing back from you.');
     })
 });
 
