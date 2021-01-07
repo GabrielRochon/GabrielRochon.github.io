@@ -269,6 +269,14 @@ header {
     line-height: 180%;
 }
 
+.section-bio a {
+    color: pink;
+    text-decoration: none;
+    font-size: 90%;
+    font-style: italic;
+    
+}
+
 
 /* ------------------------------------ */
 /* MY PROJECTS                          */
