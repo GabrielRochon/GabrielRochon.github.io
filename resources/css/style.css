@@ -264,6 +264,10 @@ header {
     border-radius: 5px;
 }
 
+.bio-header ion-icon {
+    font-size: 150%;
+}
+
 .bio-title {
     font-weight: 400;
     letter-spacing: 1px;
